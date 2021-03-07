@@ -19,9 +19,4 @@ public class FirstController {
 
         return "first/hello";
     }
-
-    @GetMapping("/goodbye")
-    public String goodByePage() {
-        return "first/goodbye";
-    }
 }
